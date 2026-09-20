@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "fresh_anvils",
+  "version": "${version}",
+  "name": "Fresh Anvils",
+  "description": "Every anvil operation ignores prior work on both inputs and leaves no prior-work penalty on its output.",
+  "environment": "*",
+  "mixins": [
+    "fresh_anvils.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  },
+  "license": "GPL-3.0-only",
+  "contact": {
+    "sources": "https://github.com/Fiordhraoi/minecraft-fresh-anvils",
+    "issues": "https://github.com/Fiordhraoi/minecraft-fresh-anvils/issues"
+  }
+}
